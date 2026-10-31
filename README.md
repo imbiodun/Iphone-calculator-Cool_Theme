@@ -1,30 +1,37 @@
-# Basic Calculator 
-Description
+# iPhone-Inspired Calculator
 
-A simple web-based calculator built with HTML, CSS, and JavaScript. It performs basic arithmetic operations: addition, subtraction, multiplication, and division. Perfect for practicing frontend development and DOM manipulation.
+A responsive calculator built with HTML, CSS, and vanilla JavaScript.
 
-Features
+## Features
 
-* Add, subtract, multiply, and divide numbers
-* Interactive buttons for input
-* Clean and responsive user interface
+- Addition, subtraction, multiplication, division, decimals, percentages, and sign toggling
+- Safe expression parsing without using `eval()`
+- Keyboard support for numbers, operators, `Enter`, `Escape`, and `Backspace`
+- Responsive layout with dark and light themes
+- Accessible labels, live display updates, visible focus states, and reduced-motion support
 
-How to Use:
-Clone the repository:
+## Run locally
+
+Clone the repository and open `index.html` in a browser:
+
+```bash
 git clone <repository-url>
-Open the project folder.
-Open index.html in your web browser.
-Use the calculator by clicking the buttons.
+cd Iphone-calculator-Cool_Theme-
+```
 
-Technologies:
-* HTML
-* CSS
-* JavaScript
+No build tools or dependencies are required.
 
-Contributing
+## Keyboard shortcuts
 
-Contributions are welcome! You can fork this project to add new features or improve the UI.
+Use `0-9`, `.`, `+`, `-`, `*`, `/`, and `%` for input. Press `Enter` to calculate,
+`Escape` to clear, and `Backspace` to remove the last character.
 
-License:
+## Technologies
 
-* MIT License
+- HTML
+- CSS
+- JavaScript
+
+## License
+
+MIT License
